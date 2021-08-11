@@ -14,11 +14,10 @@ complimentery
 :root {
     --bgcolor: #edecec;
     --color: #323232;
-    --colorAlt: #fff;
-    --colorMain: #375351;
-    --colorMainL: #6c928e;  /* L for light*/
-    --colorMainD: #213331;  /* D for dark*/
-    --colorDist: #744c4f; /* Dist for distinct/complimentary */
+    --colorMain: #3548b6;
+    --colorMainL: #4b60db;  /* L for light*/
+    --colorMainD: #2a3577;  /* D for dark*/
+    --colorDist:  #B5A33F; /* Dist for distinct/complimentary */
   }
   
   html {
@@ -382,27 +381,30 @@ complimentery
       }
   
      .nav_link {
-        flex-direction: column;
+
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+        padding:1vw 0;
+        width: 100%;
+        display: flex;
         }
-        .nav_link {
-          padding:2vw 0;
-          width: 100%;
-        }
+     
+     
         .nav_link a {
           font-size: 100%;
           padding: 2vw 2.3vh;
+          margin: 0 auto;
         }
-  
+/*   
          .nav_link:hover a
         {
           border-bottom: 4px solid var(--colorDist);
-          }
+          } */
   
     .nav_header {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: 1fr 2fr;
+        flex-direction: column;
       }
        .show_element {
         display: flex;
@@ -412,17 +414,16 @@ complimentery
   /* Media at 700px max width */
     @media all and (max-width: 700px) {
      
-      .header_hero {
+      /* .header_hero {
         grid-template-rows: 30vh 100vh; 
       }
       .hero_img img {
         width: 30%;
-      }
+      } */
    
    .nav_brand {
         display: flex;
         justify-content: flex-start;
-        align-items: center;  
       }
   
       .nav_brand a {
@@ -445,7 +446,7 @@ complimentery
     font-size: 1.5em
   }
   
-    .hero_img {
+    /* .hero_img {
       display: none;
     }
     .header_hero {
@@ -453,11 +454,7 @@ complimentery
       grid-template-rows: 1fr; 
       grid-template-areas: 
                            "tagline";
-     }
-     .nav_header {
-      grid-template-columns: 3fr 1fr;
-    }
-  
+     } */
   }
   
   /* Media at 350px max-width */
@@ -470,10 +467,7 @@ complimentery
     .nav_brand a {
       font-size: 90%;
     }
-    .nav_header {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
-    }
+  
    
     .nav_toggle {
       justify-content: flex-start;  
