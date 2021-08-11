@@ -12,13 +12,13 @@ complimentery
 
 /* Basic Css */
 :root {
-    --bgcolor: #8b8b8b;
-    --color: #2c2c2e;
+    --bgcolor: #e0e0e0;
+    --color: #1a1a1b;
     --colorAlt: #fff;
-    --colorMain: #5a8884;
-    --colorMainL: #82ada9;  /* L for light*/
-    --colorMainD: #3e5f5c;  /* D for dark*/
-    --colorDist: #885A5E; /* Dist for distinct/complimentary */
+    --colorMain: #375351;
+    --colorMainL: #6c928e;  /* L for light*/
+    --colorMainD: #213331;  /* D for dark*/
+    --colorDist: #744c4f; /* Dist for distinct/complimentary */
   }
   
   html {
@@ -41,7 +41,6 @@ complimentery
     font-size: 2rem;
     -webkit-overflow-scrolling: touch;   
     overflow-y: scroll;   
-    font-size: 2rem;
   }
   
   h1,
@@ -55,6 +54,7 @@ complimentery
     margin: 0;
     padding: 0;
   }
+
   h1 {
     font-size: 3em;
   }
@@ -80,6 +80,7 @@ complimentery
     font-weight: 300;
     font-size: 1.8rem;
   }
+
   p:last-of-type {
    margin-bottom: 0;
   }
@@ -87,8 +88,7 @@ complimentery
   small {
    font-size: 1.5rem;
   }
-  a {color: var(--colorMain);}
-  
+ 
   a:link,
   a.visited {
     text-decoration: none;
@@ -129,6 +129,7 @@ complimentery
    font-size:  10rem; 
    top: 50px;
   }
+
   /* UI components */
   a.btn {
     padding: .8rem 3rem;
@@ -141,43 +142,51 @@ complimentery
     -o-border-radius: 5px;
     font-weight: 300;
   }
+
   a.btn:hover,
   a.btn:focus {
     font-weight: 700;
   }
+
   a.btn_norm {
     color: var(--colorAlt);
     background-color: var(--colorMain);
   }
+
   a.btn_norm:hover,
   a.btn_norm:focus {
     color: var(--colorMain);
     background-color: var(--colorAlt);
   }
+
   a.btn_alt {
     color: var(--colorMain);
     background-color: var(--colorAlt);
   }
+
   a.btn_alt:hover,
   a.btn_alt:focus {
     background-color: var(--bgcolorAlt);
   }
+
   a.btn_rev {
     background-color: transparent;
     color: var(--colorMain);
     border-color: var(--colorMain);
   }
+
   a.btn_dist {
     background-color: var(--colorDist);
     color: var(--colorAlt);
-  
-  }
+   }
+
   a.btn_dist:hover,
   a.btn_dist:focus {
     background-color:var(--colorAlt);
     color: var(--colorDist);
     border-color: var(--colorDist);
   }
+
   .nav_toggle {
     font-size: 4rem;
     font-weight: 300;
@@ -185,22 +194,32 @@ complimentery
     padding-right: 20px;
     display:none;
   }
+
   .nav_link a:link,
-  .nav_link a:visited
-   {
+  .nav_link a:visited,
+  .nav_brand a:link,
+  .nav_brand a:visited {
     color: var(--colorMain);
     font-weight: 600; 
   }
-  .nav_brand a:link,
-  .nav_brand a:visited  {
-       font-weight: 600;
-       color: var(--colorMain);
+
+  .nav_brand a:hover,
+  .nav_brand a:focus,
+  .nav_link a:hover,
+  .nav_link a:focus  {
+    color: var(--colorMainD);
+    border-bottom: 1px solid var(--colorMainD);
   }
-  .nav_brand a:hover ,
-  .nav_brand a:focus  {
-    color: var(--colorDist);
+
+  .nav_brand a {
+    font-size: 3.2rem;
   }
-  
+
+  .nav_link a {
+      font-size: 2rem;
+  }
+
+
   /* classes and ids */
   /* Header */
   header {
@@ -209,7 +228,7 @@ complimentery
   }
   /* hero */
   .header_hero {
-    background-color: var(--colorMainD);
+    background-color: var(--bgcolor);
     background-image: linear-gradient(var(--colorMainD), var(--colorMain));
     color: var(--colorAlt);
     display: grid;
@@ -252,8 +271,8 @@ complimentery
   /* Navigation */
   .nav_brand {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;  
+    justify-content: center;
+    align-items: flex-end;  
     margin: 0;
     padding: 0;
     padding-left: 3%;
@@ -263,13 +282,13 @@ complimentery
   }
   .nav_header {
     display: grid;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 12vh;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 12vh 12vh;  
     padding: 0;
     margin: 0;
     border-top: 4px solid var(--colorMainD);  
     position: fixed;
-    background-color: #FBFBFC;
+    background-color: var(--bgcolor);
     width: 100%;
   }
   
@@ -281,22 +300,19 @@ complimentery
   }
   
   .nav_link a {
-    padding:  .75vw;
-    margin: 0;
-    
+    padding: 0;
+    margin: 0 .5vw 0;
   }
   
-  .nav_brand a{
-    padding: 2vh 0;
+  .nav_brand a {
+    padding: 0;
     margin: 0;
   }
   .nav_link {
     margin: 0;
     padding: 0;
   }
-  .nav_link a:hover {
-    border-bottom: 4px solid var(--colorDist);
-    }
+
   
     /* Check section */
     .check {
