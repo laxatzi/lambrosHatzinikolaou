@@ -12,14 +12,13 @@ complimentery
 
 /* Basic Css */
 :root {
-    --bgcolor: #FBFBFC;
-    --bgcolorAlt: rgb(224, 213, 213);
-    --color: #6B6C6F;
+    --bgcolor: #8b8b8b;
+    --color: #2c2c2e;
     --colorAlt: #fff;
-    --colorMain: #123FAA;
-    --colorMainL: #215CE7;  /* L for light*/
-    --colorMainD: #0B2565;  /* D for dark*/
-    --colorDist: rgb(185, 136, 21); /* Dist for distinct/complimentary */
+    --colorMain: #5a8884;
+    --colorMainL: #82ada9;  /* L for light*/
+    --colorMainD: #3e5f5c;  /* D for dark*/
+    --colorDist: #885A5E; /* Dist for distinct/complimentary */
   }
   
   html {
@@ -37,6 +36,7 @@ complimentery
     margin: 0;
     padding: 0;
     color: var(--colorMain);
+    background-color: var(--bgcolor);
     font-family:'Source Sans Pro','Segoe UI', Tahoma, sans-serif;
     font-size: 2rem;
     -webkit-overflow-scrolling: touch;   
@@ -94,7 +94,7 @@ complimentery
     text-decoration: none;
     margin: 0;
     padding: 0;
-    font-weight: 300;
+    font-weight: 600;
     color: var(--colorMain);
   }
   
@@ -189,7 +189,7 @@ complimentery
   .nav_link a:visited
    {
     color: var(--colorMain);
-    font-weight: 500; 
+    font-weight: 600; 
   }
   .nav_brand a:link,
   .nav_brand a:visited  {
@@ -281,9 +281,9 @@ complimentery
   }
   
   .nav_link a {
-    padding:  .35vw;
+    padding:  .75vw;
     margin: 0;
-    text-transform: uppercase;
+    
   }
   
   .nav_brand a{
