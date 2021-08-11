@@ -37,7 +37,7 @@ complimentery
     margin: 0;
     padding: 0;
     color: var(--colorMain);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Source Sans Pro','Segoe UI', Tahoma, sans-serif;
     font-size: 2rem;
     -webkit-overflow-scrolling: touch;   
     overflow-y: scroll;   
@@ -281,7 +281,7 @@ complimentery
   }
   
   .nav_link a {
-    padding:  1.5vw;
+    padding:  .35vw;
     margin: 0;
     text-transform: uppercase;
   }
