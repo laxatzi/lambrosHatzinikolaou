@@ -12,8 +12,8 @@ complimentery
 
 /* Basic Css */
 :root {
-    --bgcolor: #e0e0e0;
-    --color: #1a1a1b;
+    --bgcolor: #edecec;
+    --color: #323232;
     --colorAlt: #fff;
     --colorMain: #375351;
     --colorMainL: #6c928e;  /* L for light*/
@@ -35,7 +35,7 @@ complimentery
   body {
     margin: 0;
     padding: 0;
-    color: var(--colorMain);
+    color: var(--color);
     background-color: var(--bgcolor);
     font-family:'Source Sans Pro','Segoe UI', Tahoma, sans-serif;
     font-size: 2rem;
@@ -187,6 +187,26 @@ complimentery
     border-color: var(--colorDist);
   }
 
+/* classes and ids */
+
+  /* Header */
+  header {
+    margin: 0;
+    padding: 0;
+  }
+ /* Navigation */
+ .nav_header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 10vh;  
+    padding: 0;
+    margin: 0;
+    border-top: 4px solid var(--colorMainD);  
+    position: fixed;
+    background-color: var(--bgcolor);
+    width: 100%;
+  }
+
   .nav_toggle {
     font-size: 4rem;
     font-weight: 300;
@@ -195,6 +215,33 @@ complimentery
     display:none;
   }
 
+  .nav_link {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav_brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 0;
+    padding: 0;
+    padding-left: 3%;
+  }
+ 
+.nav_link a {
+    padding: 0;
+    margin: 0 .5vw 0;
+    font-size: 2rem;
+  }
+
+.nav_brand a {
+    font-size: 3.2rem;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0;
+  }
+ 
   .nav_link a:link,
   .nav_link a:visited,
   .nav_brand a:link,
@@ -211,23 +258,28 @@ complimentery
     border-bottom: 1px solid var(--colorMainD);
   }
 
-  .nav_brand a {
-    font-size: 3.2rem;
-  }
+ .tagline {
+     font-size: 2.4rem;
+     margin-top: 1rem;
+     font-style: oblique;
+ }
 
-  .nav_link a {
-      font-size: 2rem;
-  }
+ .image_profile {
+    width: 10rem;
+    border-radius: 100%;
+}
 
-
-  /* classes and ids */
-  /* Header */
-  header {
-    margin: 0;
-    padding: 0;
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-right: -3%; 
   }
-  /* hero */
-  .header_hero {
+  
+
+/* hero */
+
+   /* .header_hero {
     background-color: var(--bgcolor);
     background-image: linear-gradient(var(--colorMainD), var(--colorMain));
     color: var(--colorAlt);
@@ -245,17 +297,21 @@ complimentery
     flex-direction: column;
     width: 100%;
   }
+
   .hero_text .btn {
     width: 40%;
     margin: 0 auto;
   }
+
   .hero_text p {
     margin-bottom: 20px;
   }
+
   .hero_img {
     width: 100%;
     margin: 0;
   }
+
   .hero_img img {
     width: 55%;
     border: 1px solid transparent;
@@ -266,103 +322,29 @@ complimentery
     -o-border-radius: 100%;
     display: block;
     margin: 15vh 15vw;
-  }
-  
-  /* Navigation */
-  .nav_brand {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;  
-    margin: 0;
-    padding: 0;
-    padding-left: 3%;
-  }
-  .nav_brand img {
-    width: 5rem;
-  }
-  .nav_header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 12vh 12vh;  
-    padding: 0;
-    margin: 0;
-    border-top: 4px solid var(--colorMainD);  
-    position: fixed;
-    background-color: var(--bgcolor);
-    width: 100%;
-  }
-  
-  
-  .nav_menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-  }
-  
-  .nav_link a {
-    padding: 0;
-    margin: 0 .5vw 0;
-  }
-  
-  .nav_brand a {
-    padding: 0;
-    margin: 0;
-  }
-  .nav_link {
-    margin: 0;
-    padding: 0;
-  }
+  } */
 
+/* Media queries start here */
   
-    /* Check section */
-    .check {
-      height: 40vh;
-      background-color: var(--colorAlt);
-      margin: 0;
-  
-    }
-    .check_cta {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 40vh;
-    }
-    .check a.cta {
-      border-bottom: 1px dotted var(--colorMainL);
-      padding-bottom: 5px;
-      margin-right: 2vw;
-    }
-  
-    .check a.cta:hover,
-    .check a.cta:focus {
-      border-bottom:2px dotted var(--colorMain);
-    }
-    /* Filler (dummy) div */
-    .filler {
-      height: 100vh;
-      width: auto;
-      background-color: orangered;
-    }
-    /* Media queries start here */
-  
-    /* Media at 950px max-width */
+/* Media at 950px max-width */
     @media all and (max-width: 999px) {
-      .hero_img img {
+      /* .hero_img img {
         margin: 15vh 10vw;
         width: 70%;
       }
-      .nav_link a {
-        padding: 2vw 2vh;
-        font-size: 85%;
-      }
+
     
   .header_hero {
     grid-template-rows: 100vh;  
-  }
-    }
+  } */
+
+}
   
-    /* Media at 800px max width */
+/* Media at 800px max width */
     @media all and (max-width: 840px) {
+       /* 
+       hero section
+       
        .header_hero {
         grid-template-columns: 1fr;
         grid-template-rows: 50vh 80vh; 
@@ -384,11 +366,15 @@ complimentery
       .hero_text .btn {
         width: 50%;
       
-      }
+      } */
+
+      /* Navigation */
+
       .nav_menu {
         display: none;
         flex-direction: column;
        }
+
        .nav_toggle {
         display: flex;
         justify-content: flex-end;  
@@ -398,7 +384,8 @@ complimentery
      .nav_link {
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
+        border: 1px solid red;
         }
         .nav_link {
           padding:2vw 0;
