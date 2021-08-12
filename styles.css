@@ -1,7 +1,7 @@
 
 /* Basic Css */
 :root {
-    --bgcolor: #edecec;
+    --bgcolor: #fff;
     --color: #323232;
     --colorMain: #3548b6;
     --colorMainL: #4b60db;  /* L for light*/
@@ -26,7 +26,7 @@
     color: var(--color);
     background-color: var(--bgcolor);
     font-family:'Source Sans Pro','Segoe UI', Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     -webkit-overflow-scrolling: touch;   
     overflow-y: scroll;   
   }
@@ -44,7 +44,8 @@
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 4rem;
+    color: var(--colorMain);
   }
   
   h2 {
@@ -61,12 +62,12 @@
     font-size: 100%; 
   }
   
+  
   p {
     line-height: 1.45;
     margin-bottom: 3.5rem;
     text-align: center; 
     font-weight: 300;
-    font-size: 1.8rem;
   }
 
   p:last-of-type {
@@ -240,7 +241,7 @@
   }
 
  .tagline {
-     font-size: 2.2rem;
+     font-style: oblique;
      margin-top: 1rem;  
  }
 
@@ -253,28 +254,28 @@
     display: flex;
     justify-content: center;
     align-items: flex-start; 
-    margin-right: -3%; 
-  }
 
-  
+  }
 /* Media queries start here */
   
-/* Media at 950px max-width */
-@media all and (max-width: 999px) {
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20vh 10vh;  
-    padding: 0;
-    margin: 0;
-    
-    position: fixed;
-    background-color: var(--bgcolor);
-    width: 100%;
-  }
+main.homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20vh 10vh;  
+  padding: 0;
+  margin: 20px 0;
+  background-color: var(--bgcolor);
+  width: 100%;
 }
-  
+
+.homepage h1,
+.homepage p {
+  text-align: left;
+}
+
+footer {
+  display: grid;
+}
 /* Media at 700px max width */
 @media all and (max-width: 700px) {
 
