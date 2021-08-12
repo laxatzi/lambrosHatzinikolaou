@@ -41,9 +41,9 @@
           </div> <!--Toggle div -->          
           <div class="nav_menu" id="navbar">
             
-              <div class="nav_link">
+              <!-- <div class="nav_link">
                 <a href="#">Work</a>
-              </div>
+              </div> -->
               <div class="nav_link">
                 <a href="#">About</a>
               </div>
@@ -58,7 +58,7 @@
           </div>
         </div><!-- nav_header -->
       </header>
-      <main>
+      <section class="homepage">
         <h1>Hi, it's David.</h1>
 
         <p>I’m a web developer based in Paris, France. 
@@ -67,73 +67,16 @@
            mentor, always keeping hands on code. I switched to front-end technologies years 
            ago and now I am focused full-time on what I love doing: building great software.
        </p>
-      </main>
+      </section>
       <footer>
         <p>Blah blah</p>
       </footer>
-       <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-       crossorigin="anonymous"></script>
        <script>
            // copyright year updater
            $('#year').text(new Date().getFullYear());
 
-      // TOGGLE FUNCTION
-
-      function toggleClass() {
-         //toggling menu
-         const navMenus = document.querySelectorAll('.nav_menu');
-         navMenus.forEach(n => n.classList.toggle('show_element'));
-        
-       //   $("i", this).toggleClass("fa-bars fa-times"); this is the jquery way 
-       //we toggle icons along with the menu with the bellow code
-      const togglingIcon = document.querySelector('.fa-bars');
-      togglingIcon.classList.toggle('fa-times');
-      }
-      document.querySelector('.nav_toggle').addEventListener('click', toggleClass);
-
-      //OLD WAY
-      // function toggleFunction() {
-      //   let navbar = document.getElementById("navbar");
-      //   if (navbar.style.display === "none") {
-      //     navbar.style.display = "block";
-      //     let faTimes = document.querySelector(".icon_delete");
-      //       faTimes.setAttribute("id", "icon__visible");
-      //     let fabars = document.querySelector(".icon_menu"); 
-      //        fabars.setAttribute("id", "icon__hidden");  
-      //   } else {
-      //     navbar.style.display = "none";
-      //   }
-
-      // } 
-
-      //  function removeDelete() {
-      //   let navbar = document.getElementById("navbar");
-      //   if(navbar.style.display === "block"){
-      //     navbar.style.display = "none"
-      //   }
-      //   else {
-      //    navbar.style.display = "none";
-      //   }
-      //   let faTimes = document.querySelector(".icon_delete");
-      //        faTimes.removeAttribute("id", "icon__visible");
-      //     let fabars = document.querySelector(".icon_menu"); 
-      //       fabars.removeAttribute("id", "icon__hidden");
-      //  }
-
-        // function toggleBtn() {
-      //     let searchInput = document.getElementById("main-search");
-      //     if (searchInput.style.display === "none") {
-      //       searchInput.style.display = "block";
-             
-      //     } else {
-      //       searchInput.style.display = "none";
-      //     }
- 
-      //  }
+     </script>
       
-  </script>
-      
-       <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
    </body>
 </html>
