@@ -1,5 +1,4 @@
 
-
 /* Basic Css */
 :root {
     --bgcolor: #edecec;
@@ -257,68 +256,14 @@
     align-items: flex-start; 
     margin-right: -3%; 
   }
+
   
-
-/* hero */
-
-   /* .header_hero {
-    background-color: var(--bgcolor);
-    background-image: linear-gradient(var(--colorMainD), var(--colorMain));
-    color: var(--colorAlt);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 80vh;  
-    padding-top: 20vh;
-  }
-  
-  .hero_text {
-    margin: 0;
-    padding: 5rem;
-    text-align: center;
-    display: flex;  
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .hero_text .btn {
-    width: 40%;
-    margin: 0 auto;
-  }
-
-  .hero_text p {
-    margin-bottom: 20px;
-  }
-
-  .hero_img {
-    width: 100%;
-    margin: 0;
-  }
-
-  .hero_img img {
-    width: 55%;
-    border: 1px solid transparent;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    display: block;
-    margin: 15vh 15vw;
-  } */
 
 /* Media queries start here */
   
 /* Media at 950px max-width */
-    @media all and (max-width: 999px) {
-      /* .hero_img img {
-        margin: 15vh 10vw;
-        width: 70%;
-      }
-
-    
-  .header_hero {
-    grid-template-rows: 100vh;  
-  } */
+@media all and (max-width: 999px) {
+  
   main {
     display: grid;
     grid-template-columns: 1fr;
@@ -334,33 +279,6 @@
   
 /* Media at 700px max width */
     @media all and (max-width: 700px) {
-       /* 
-       hero section
-       
-       .header_hero {
-        grid-template-columns: 1fr;
-        grid-template-rows: 50vh 80vh; 
-        grid-template-areas: "image"
-                             "tagline";
-       }
-  
-      .hero_img {
-        grid-area: "image";
-     
-      }
-      .hero_img img {
-        width: 35%;
-        margin:  auto;
-      } 
-      .hero_text {
-        grid-area: "tagline";
-      }
-      .hero_text .btn {
-        width: 50%;
-      
-      }
-   
-  */
 
 /* Navigation */
 
@@ -390,15 +308,7 @@
     font-size: 1.5em
   }
   
-    /* .hero_img {
-      display: none;
-    }
-    .header_hero {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr; 
-      grid-template-areas: 
-                           "tagline";
-     } */
+   
   }
   
   /* Media at 350px max-width */
