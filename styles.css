@@ -235,7 +235,7 @@ complimentery
   }
 
 .nav_brand a {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     letter-spacing: -1px;
     padding: 0;
     margin: 0;
@@ -258,9 +258,9 @@ complimentery
   }
 
  .tagline {
-     font-size: 2.4rem;
+     font-size: 2.2rem;
      margin-top: 1rem;
-     font-style: oblique;
+     
  }
 
  .image_profile {
@@ -339,8 +339,8 @@ complimentery
 
 }
   
-/* Media at 800px max width */
-    @media all and (max-width: 840px) {
+/* Media at 700px max width */
+    @media all and (max-width: 700px) {
        /* 
        hero section
        
@@ -365,23 +365,24 @@ complimentery
       .hero_text .btn {
         width: 50%;
       
-      } */
+      }
+   
+  */
 
-      /* Navigation */
+/* Navigation */
 
       .nav_menu {
         display: none;
         flex-direction: column;
        }
 
-       .nav_toggle {
+      .nav_toggle {
         display: flex;
         justify-content: flex-end;  
         align-self: center;
       }
   
-     .nav_link {
-
+      .nav_link {
         justify-content: center;
         align-items: center;
         padding:1vw 0;
@@ -390,16 +391,11 @@ complimentery
         }
      
      
-        .nav_link a {
-          font-size: 100%;
-          padding: 2vw 2.3vh;
-          margin: 0 auto;
-        }
-/*   
-         .nav_link:hover a
-        {
-          border-bottom: 4px solid var(--colorDist);
-          } */
+      .nav_link a {
+        font-size: 100%;
+        padding: 2vw 2.3vh;
+        margin: 0 auto;
+      }
   
     .nav_header {
         grid-template-columns: 4fr 1fr;
@@ -410,28 +406,17 @@ complimentery
         display: flex;
       } 
   
-    }
-  /* Media at 700px max width */
-    @media all and (max-width: 700px) {
-     
-      /* .header_hero {
-        grid-template-rows: 30vh 100vh; 
-      }
-      .hero_img img {
-        width: 30%;
-      } */
-   
-   .nav_brand {
+      .nav_brand {
         display: flex;
         justify-content: flex-start;
       }
   
       .nav_brand a {
-        font-size: 80%;
+        font-size: 2.5rem;
       }
   
-    
-  }
+    } 
+  
   /* Media at 550px max-width */
   @media all and (max-width: 550px) {
     
