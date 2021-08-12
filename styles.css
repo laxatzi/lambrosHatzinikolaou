@@ -241,8 +241,7 @@
 
  .tagline {
      font-size: 2.2rem;
-     margin-top: 1rem;
-     
+     margin-top: 1rem;  
  }
 
  .image_profile {
@@ -258,7 +257,6 @@
   }
 
   
-
 /* Media queries start here */
   
 /* Media at 950px max-width */
@@ -278,40 +276,38 @@
 }
   
 /* Media at 700px max width */
-    @media all and (max-width: 700px) {
+@media all and (max-width: 700px) {
 
 /* Navigation */
 
   .nav_link a {
-        font-size: 100%;
-        padding: 2vw 2.3vh;
-        margin: 0 auto;
-      }
+    font-size: 100%;
+    padding: 2vw 2.3vh;
+    margin: 0 auto;
+  }
   
-      .nav_brand a {
-        font-size: 2.5rem;
-      }
+  .nav_brand a {
+    font-size: 2.5rem;
+  }
   
-    } 
-  
-  /* Media at 550px max-width */
+} 
+/* Media at 550px max-width */
   @media all and (max-width: 550px) {
     
-  h1
-   {
-   font-size: 2.5em;
+  h1 {
+    font-size: 2.5em;
   }
+
   h2 {
     font-size: 2em;
   }
+
   h3 {
     font-size: 1.5em
   }
   
-   
-  }
-  
-  /* Media at 350px max-width */
+}
+/* Media at 350px max-width */
   
   @media all and (max-width: 370px) {
     body {
