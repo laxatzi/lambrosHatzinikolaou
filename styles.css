@@ -261,9 +261,9 @@
 main.homepage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20vh 10vh;  
+  /* grid-template-rows: 20vh 10vh;   */
   padding: 0;
-  margin: 20px 0;
+  margin: 20px 0 10vh;
   background-color: var(--bgcolor);
   width: 100%;
 }
@@ -276,9 +276,35 @@ main.homepage {
 footer {
   display: grid;
 }
-/* Media at 700px max width */
-@media all and (max-width: 700px) {
 
+.copyright,
+.wordpress {
+  font-size: 1.8rem;
+}
+ion-icon {
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+ion-icon[name="heart"] {
+  color: rgb(124, 5, 5);
+}
+
+ion-icon[name="cafe"] {
+  color: rgb(104, 66, 6);
+}
+
+ion-icon[name="logo-wordpress"] {
+  color: #0073AA;
+}
+
+/* Media at 900px max width */
+@media all and (max-width: 900px) {
+
+  main .homepage {
+    grid-template-columns: 1fr 5fr 1fr;
+
+  }
 /* Navigation */
 
   .nav_link a {
@@ -290,7 +316,8 @@ footer {
   .nav_brand a {
     font-size: 2.5rem;
   }
-  
+
+ 
 } 
 /* Media at 550px max-width */
   @media all and (max-width: 550px) {
@@ -306,7 +333,7 @@ footer {
   h3 {
     font-size: 1.5em
   }
-  
+ 
 }
 /* Media at 350px max-width */
   

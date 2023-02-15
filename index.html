@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html prefix="og: http://lambrosHatzinikolaou.com/ns#>" lang="en-us">
-  <head>
+<html prefix="og: https://lambrosHatzinikolaou.com/ns#>" lang="en-us">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Lambros Hatzinikolaou | Web Developer </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lambros Hatzinikolaou Personal Website</title>
     <meta name="author" content="Lambros Hatzinikolaou">
-    <meta name="description" content="A freelance web developer from Thessaloniki, Greece, specializing in front-end web development">
+    <meta name="description" content="A freelance web developer from Thessaloniki, Greece, specializing in building websites for small businesses and professionals">
     <link rel="canonical" href="https://lambrosHatzinikolaou.com/" />
     <meta property="og:title" content="Lambros Hatzinikolaou | Freelance web developer" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.lambrosHatzinikolaou.com" />
-    <meta property="og:image" content="http://www.lambrosHatzinikolaou.com/img/avatar.jpg  " />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"> -->
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta property="og:url" content="https://www.lambrosHatzinikolaou.com" />
+    <meta property="og:image" content="https://www.lambrosHatzinikolaou.com/img/avatar.jpg  " />
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
-  </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+    <script defer>
+      document.querySelector(".wrapper").style.display= "none";
+			 document.querySelector("body").classList.add("loader");
+
+			//  Mimicing a server request
+			 setTimeout(function(){
+			 	document.querySelector("body").classList.remove("loader");
+                document.querySelector(".wrapper").style.display= "block";
+			 }, 0);
+</script>
+<script src="js/script.js" defer></script>
+</head>
   <body id="body_wrapper">
       <header id="header" class="main_header">
         <div class="nav_header" >
@@ -38,9 +47,9 @@
 
           <div class="nav_toggle">
             <i class="fas fa-bars"></i>
-          </div> <!--Toggle div -->          
+          </div> <!--Toggle div -->
           <div class="nav_menu" id="navbar">
-            
+
               <!-- <div class="nav_link">
                 <a href="#">Work</a>
               </div> -->
@@ -53,8 +62,8 @@
               <div class="nav_link">
                   <a href="#">Contact</a>
               </div>
-           
-            
+
+
           </div>
         </div><!-- nav_header -->
       </header>
@@ -70,8 +79,8 @@
             <a href="//localhost:1313/about/now">find out what I'm up to now</a>.
            </p>
            <p>
-            If you want to to talk about anything programming related, have any recommendations, comments, 
-            want to <a href="//localhost:1313/work">work with me</a>, meet up or just say hello, you can <a href="https://twitter.com/home" target="_blank">tweet</a> me, or just send me an 
+            If you want to to talk about anything programming related, have any recommendations, comments,
+            want to <a href="//localhost:1313/work">work with me</a>, meet up or just say hello, you can <a href="https://twitter.com/home" target="_blank">tweet</a> me, or just send me an
             <a href="//localhost:1313/about/contact">email</a>!
             </p>
         </div>
@@ -79,7 +88,7 @@
       </main>
       <footer>
         <div class="nav_menu" id="navbar">
-            
+
           <!-- <div class="nav_link">
             <a href="#">Work</a>
           </div> -->
@@ -92,17 +101,18 @@
           <div class="nav_link">
               <a href="#">Web_App_Development</a>
           </div>
-       
-        
+
+
       </div>
-        <p>Copyright © 2021 Lambros Hatzinikolaou</p>
+        <p class="copyright">Copyright © 2021. Made with <ion-icon name="heart"></ion-icon> and <ion-icon name="cafe"></ion-icon> by Lambros Hatzinikolaou</p>
+        <p class="wordpress">Powered by <ion-icon name="logo-wordpress"></ion-icon></p>
       </footer>
        <script>
            // copyright year updater
            $('#year').text(new Date().getFullYear());
 
      </script>
-      
+
      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
    </body>
 </html>
