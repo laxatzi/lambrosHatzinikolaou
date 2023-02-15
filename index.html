@@ -30,89 +30,162 @@
 </script>
 <script src="js/script.js" defer></script>
 </head>
-  <body id="body_wrapper">
-      <header id="header" class="main_header">
-        <div class="nav_header" >
-          <div class="nav_brand">
-              <img class="image_profile" src="img/avatar_64.png" alt="">
-            <a href="#">
-                <!-- <img src="img/A_Logo-small.png" alt="" class="logo_img">Lambros Hatzinikolaou -->
-                Lambros Hatzinikolaou
-              </a>
-             <p class="tagline"> Results-driven
-                freelance Web Developer
-             </p>
-          </div> <!-- Brand -->
-          <!-- toggle button -->
+<body>
+  <div>Loading...</div>
 
-          <div class="nav_toggle">
-            <i class="fas fa-bars"></i>
-          </div> <!--Toggle div -->
-          <div class="nav_menu" id="navbar">
-
-              <!-- <div class="nav_link">
-                <a href="#">Work</a>
-              </div> -->
-              <div class="nav_link">
-                <a href="#">About</a>
-              </div>
-              <div class="nav_link">
-                <a href="#">Blog</a>
-              </div>
-              <div class="nav_link">
-                  <a href="#">Contact</a>
-              </div>
-
-
-          </div>
-        </div><!-- nav_header -->
-      </header>
-      <main class="homepage" >
-        <section></section>
-        <section class="main_content">
-          <h1>Hi, it's Lambros.</h1>
-
-          <div class="homepage-content-intro">
-            <p>I like building stuff with code. This is my personal website where <a href="//localhost:1313/post">I write about Web Development</a>,
-                <a href="/work">my work</a> and my experience as a web developer.</p>
-           <p>You can look over <a href="https://github.com/laxatzi" target="_blank">my code on Github</a>, and/or
-            <a href="//localhost:1313/about/now">find out what I'm up to now</a>.
-           </p>
-           <p>
-            If you want to to talk about anything programming related, have any recommendations, comments,
-            want to <a href="//localhost:1313/work">work with me</a>, meet up or just say hello, you can <a href="https://twitter.com/home" target="_blank">tweet</a> me, or just send me an
-            <a href="//localhost:1313/about/contact">email</a>!
-            </p>
-        </div>
-        </section>
-      </main>
-      <footer>
-        <div class="nav_menu" id="navbar">
-
-          <!-- <div class="nav_link">
-            <a href="#">Work</a>
-          </div> -->
-          <div class="nav_link">
-            <a href="#">LinkedIn</a>
-          </div>
-          <div class="nav_link">
-            <a href="#">GitHub</a>
-          </div>
-          <div class="nav_link">
-              <a href="#">Web_App_Development</a>
-          </div>
-
-
+  <div class="wrapper" id="top">
+    <header id="header">
+      <div class="logo"><a href="#home" >LambrosHatzinikolaou</a></div>
+      <div class="toggle-menu" id="toggle-menu-button" aria-label="Toggle main menu">
+        <ion-icon name="menu" class="show" ></ion-icon>
+        <ion-icon name="close" class="close"></ion-icon>
       </div>
-        <p class="copyright">Copyright © 2021. Made with <ion-icon name="heart"></ion-icon> and <ion-icon name="cafe"></ion-icon> by Lambros Hatzinikolaou</p>
-        <p class="wordpress">Powered by <ion-icon name="logo-wordpress"></ion-icon></p>
-      </footer>
-       <script>
-           // copyright year updater
-           $('#year').text(new Date().getFullYear());
+      <div id="navbar" class="nav nav--js">
+          <div class="nav-link"><a href="about.html">About</a></div>
+          <div class="nav-link"><a href="#services">Services</a></div>
+          <div class="nav-link"><a href="#projects">Work</a></div>
+          <div class="nav-link"><a href="blog.html">Articles</a></div>
+          <div class="nav-link"><a href="tutorials.html">Tutorials</a></div>
+          <div class="nav-link"><a href="#contactme" class="reachout">Reach Out</a></div>
+      </div>
+    </header>
 
-     </script>
+    <section id="welcome-section">
+        <div class="intro">
+          <h1>Hi, my name is <span class="complement">Lambros Hatzinikolaou</span>. I am a <span class="complement">freelance web developer</span> from Greece.</h1>
+          <h2>I build, results-driven, fast, and accessible websites.</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore aperiam quae officiis!</p>
 
-     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-   </body>
+          <a href="blog.html" class="rev read_more">See my work</a>
+        </div>
+        <div class="img">
+          <img src="https://via.placeholder.com/400x400.png" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+      <h2 class="text-center">My Services</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+        <div class="my-services">
+          <a class="my-service" id="web-design" href="web-design.html">
+            <img class="services-img" src="img/gear-blue.png" alt="">
+            <h3 class="reverse-color">Web Maintenance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ut officia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odio dolorem numquam optio ad et voluptate quas minima nisi aut.</p>
+          </a>
+          <a class="my-service" id="web-development" href="web-development">
+            <img class="services-img" src="img/code-blue.png" alt="">
+            <h3 class="reverse-color">Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, fuga excepturi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam accusantium ipsa excepturi. Numquam harum corporis fugiat recusandae, rem obcaecati et!</p>
+          </a>
+          <a class="my-service" id="web-hosting" href="web-marketing.html">
+            <img class="services-img" src="img/server-blue.png" alt="">
+            <h3 class="reverse-color">Web Hosting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, tenetur quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum, sunt reprehenderit ut numquam iure consequuntur quasi molestiae debitis ullam.</p>
+          </a>
+        </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Happy Clients</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias doloribus temporibus commodi corrupti assumenda ipsa. Nesciunt beatae corrupti exercitationem pariatur.</p>
+      <a href="#" class="top">What my clients say <span class="arrow">&#x27A1;</span></a>
+      <div class="testimonials-quote">
+        <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ex excepturi repellendus consequatur reiciendis qui voluptates maiores dolorum minima culpa!</blockquote>
+        <div class="testimonial-giver">
+          <img src="https://via.placeholder.com/100x100.png" alt="">
+          <div class="sig">
+            <div class="name">Maria Savic</div>
+            <div class="title">Sales Manager</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands">
+      <div class="brand">logo1</div>
+      <div class="brand">logo2</div>
+      <div class="brand">logo3</div>
+      <div class="brand">logo4</div>
+      <div class="brand">logo5</div>
+    </section>
+
+    <section id="projects">
+      <h2>Take a look on past projects</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+      <div class="works">
+        <a href="https://codepen.io/lampxatzi/pen/zYzBGLj" target="_blank" class="project-tile">
+        <div class="project-tile--text">
+          <h3 class="work-title">Random Quote Machine</h3>
+          <p class="work-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia dolores.</p>
+        </div>
+        </a>
+        <a href="https://codepen.io/lampxatzi/pen/gORWbRp" target="_blank" class="project-tile">
+          <div class="project-tile--text">
+            <h3 class="work-title">Random Quote Machine</h3>
+            <p class="work-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia dolores.</p>
+          </div>
+        </a>
+        <a href="https://codepen.io/lampxatzi/pen/zYzBrEq" target="_blank" class="project-tile">
+          <div class="project-tile--text">
+            <h3 class="work-title">Random Quote Machine</h3>
+            <p class="work-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia dolores.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="contactme">
+    <h3>Have any question?</h3>
+      <h2>Contact Me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident repellat in expedita saepe numquam nesciunt maiores.</p>
+      <hr class="hr">
+      <div class="contact">
+        <div class="message">
+          <form action="index.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required >
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject-line">Send your inquiry or just say hello!</label>
+            <input type="text" id="subject-line" name="subject-line" placeholder="Subject line" required>
+            <textarea name="message" rows="5" placeholder="Your message..."></textarea>
+            <input type="submit" name="submit" value="Send Message" >
+          </form>
+        </div>
+        <div class="or">
+          <p>Or</p>
+          <div class="arrow"> &#x2935; </div>
+        </div>
+        <div class="contact-info">
+          <h3>Get in touch another way</h3>
+          <p><ion-icon name="location"  size="large"></ion-icon>Mikras Asia 89, Thessaloniki, Greece</p>
+          <p><img class="zip-code" src="img/zip-code_purple.png" alt=""> 55000 </p>
+          <p><ion-icon name="mail" size="large"></ion-icon>duck@gmail.com</p>
+          <p><ion-icon name="call" size="large"></ion-icon>2310-xxx-xxx</p>
+          <p><ion-icon size="large" name="logo-whatsapp"></ion-icon>6948-xxx-xxx</p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="copyright">&#169;2023. Lambros Hatzinikolaou.</div>
+      <div class="soc-media">
+        <a id="profile-link" href="https://github.com/laxatzi" target="_blank"><ion-icon style="color:var(--color-main-dark)" size="large" name="logo-github"></ion-icon></a>
+        <a href="linkedin.com" target="_blank"><ion-icon style="color: var(--color-main-dark)" size="large" name="logo-linkedin"></ion-icon></a>
+        <a href="twitter.com" target="_blank"><ion-icon style="color: var(--color-main-dark)" size="large" name="logo-twitter"></ion-icon></a>
+         <a href="twitter.com" target="_blank"><ion-icon style="color: var(--color-main-dark)" size="large" name="logo-youtube"></ion-icon></a>
+      </div>
+      <div class="nav-footer">
+        <div class="nav-link"><a href="#privacy">Privacy</a></div>
+        <div class="nav-link"><a href="#contact">Contact</a></div>
+        <div class="nav-link"><a href="#rss ">RSS</a></div>
+        <div class="nav-link"><a href="https://www.freepik.com" title="Freepik" style="color: black;">Icons made by </a></div>
+      </div>
+    </footer>
+    <a class="back-to-top hidden" href="#" id="js--back-to-top">
+      <ion-icon name="arrow-up-outline" id="arrow-up"></ion-icon>
+      <span class="sr-only">Back to top</span>
+    </a>
+  </div>
+</body>
 </html>
+
+<!-- © 2011-2021 Privacy Contact RSS Back to top -->
