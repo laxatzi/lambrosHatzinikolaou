@@ -139,7 +139,7 @@ a.button {
   padding: .25rem .5rem;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 5px;
   font-size: 1rem;
 }
 
@@ -219,7 +219,7 @@ span.complement {
 a.read_more {
   margin-top: 40px;
   padding: 10px 20px;
-  border-radius: 3px;
+  border-radius: 5px;
   display: block;
   width: 15rem;
   text-align: center;
@@ -356,7 +356,7 @@ a.read_more:active {
   background: var(--color-dist);
   display: inline-block;
   padding: 15px 30px;
-  border-radius: 3px;
+  border-radius: 5px;
   color: var(--color-background);
   font-weight: 700;
 }
@@ -458,7 +458,7 @@ textarea[placeholder] {
 .toggle-menu ion-icon:hover,
 .toggle-menu ion-icon:focus {
   border: 1px solid var(--color-background-alt);
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #welcome-section {
@@ -473,6 +473,7 @@ textarea[placeholder] {
   display: flex;
   padding: 100px 2%;
 }
+
 .img {
   flex: 1 2;
 }
@@ -480,6 +481,7 @@ textarea[placeholder] {
 .img img {
    display: block;
    border: 1px solid transparent;
+   border-radius: 5px;
    height: 30vh;
    width: 30vh;
    margin-left: 15rem;
@@ -504,7 +506,7 @@ textarea[placeholder] {
   border: 1px solid var(--color-main-dark);
   background-color: var(--color-main-dark);
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -530,7 +532,7 @@ textarea[placeholder] {
   background-color: var(--color-background);
   color: var(--color-dist);
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -552,7 +554,7 @@ textarea[placeholder] {
   color: var(--color-background);
   text-align: center;
   padding: 5px 0;
-  border-radius: 3px;
+  border-radius: 5px;
 
   /* Position the tooltip text */
   position: absolute;
@@ -608,7 +610,7 @@ a.my-service {
 .my-service:hover,
 .my-service:focus {
   border: 2px dotted var(--color-dist);
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .services-img {
@@ -641,7 +643,7 @@ a.my-service {
 
 .project-tile {
   height: 14.375rem;
-  border-radius: 8px;
+  border-radius: 5px;
   color: var(--color-background);
   font-size: 2.5rem;
   background-repeat: no-repeat;
@@ -739,7 +741,7 @@ p.work-title {
 
 .testimonial-giver img{
   border: 2px solid var(--color-main-light);
-  border-radius: 100px;
+  border-radius: 5px;
   min-width: 6.25rem;
   width: 10%;
 }
@@ -807,7 +809,7 @@ form textarea {
   padding: 12px;
   background-color: var(--color-background);
   border: 3px solid var(--color-main-dark);
-  border-radius: 3px;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
@@ -853,7 +855,7 @@ form label {
   padding: 15px;
   margin-top: 30px;
   margin-left: 20px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: 3px solid var(--color-main-dark);
   flex: 4 1;
 }
@@ -1041,7 +1043,7 @@ ul.tag-cloud a:active {
 
 .search input {
   border: 2px solid var(--color-main-dark);
-  border-radius: 3px;
+  border-radius: 5px;
   color: var(--color-main-light);
   padding: 5px;
   font-size: 1rem;
