@@ -815,8 +815,8 @@ form textarea {
 
  form input[type="submit"] {
   width: 15rem;
-  font-size: 1rem;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
   background-color: var(--color-dist);
   color: var(--color-main-dark);
   border: 3px solid transparent;
