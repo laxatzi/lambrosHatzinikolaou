@@ -696,11 +696,10 @@ p.work-title {
 }
 
 /*------------------------------------------------------------------
-    ^TESTIMONIALS
+    ^clients
 -------------------------------------------------------------------*/
-#testimonials {
+#clients {
   display: flex;
-  flex-direction: column;
   background-color: var(--color-background);
 }
 
@@ -720,6 +719,14 @@ p.work-title {
   margin: 0;
   width: 15%
 } */
+.testimonials {
+  flex: 3 1;
+  border: 1px solid red;
+}
+.companies {
+  flex: 1 1;
+  border: 1px solid blue;
+}
 
 .testimonials-quote {
   margin: 100px 0;
@@ -748,7 +755,7 @@ p.work-title {
   font-size: .75rem;
 }
 
-#testimonials a {
+#clients a {
   font-size: 2rem;
 }
 
@@ -1195,10 +1202,6 @@ blockquote {
 
 .testimonials-quote {
   width: 100%;
-}
-
-#testimonials {
-  flex-direction: column;
 }
 
 .contact {
