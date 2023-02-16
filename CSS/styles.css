@@ -560,16 +560,14 @@ textarea[placeholder] {
 }
 
 .my-services {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 50px;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
 }
 
 .card-container {
-   flex: 1 0 20%;
-   margin: 5px;
-   display: flex;
+   padding: 20px;
 }
 
 .services-img {
