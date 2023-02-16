@@ -1,4 +1,4 @@
-
+// © Lambros Hatzinikolaou, 2023
 // SMOOTH SCROLLING
 
   const links = document.querySelectorAll(".nav .nav-link a");
