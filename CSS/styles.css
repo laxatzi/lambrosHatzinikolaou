@@ -182,7 +182,7 @@ blockquote {
   line-height: 1.6em;
   font-size: 100%;
   padding: 20px 2.5em;
-  width: 50%;
+  width: 80%;
 }
 
 blockquote:before {
@@ -719,13 +719,12 @@ p.work-title {
   margin: 0;
   width: 15%
 } */
+
 .testimonials {
-  flex: 3 1;
-  border: 1px solid red;
+  flex: 5 1;
 }
 .companies {
-  flex: 1 1;
-  border: 1px solid blue;
+  flex: 2 1;
 }
 
 .testimonials-quote {
@@ -764,9 +763,9 @@ span.arrow {
 }
 
 /*------------------------------------------------------------------
-    ^BRANDS
+    ^companies
 -------------------------------------------------------------------*/
-#brands {
+.companies {
   display: flex;
   justify-content: space-evenly;
   color: grey;
