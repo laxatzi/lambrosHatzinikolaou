@@ -722,7 +722,11 @@ span.arrow {
 .brands {
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
 }
+
 .brand {
   margin: 0 auto;
   display: block;
