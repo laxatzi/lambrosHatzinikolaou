@@ -195,7 +195,7 @@ blockquote:before {
 }
 
 section {
-  padding: 10px 17%;
+  padding: 50px 17%;
 }
 
 .ion-icon.comp {
@@ -660,23 +660,6 @@ p.work-title {
   display: flex;
   background-color: var(--color-background);
 }
-
-/* .testimonials-intro {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-}
-
-.testimonials-intro h2,
-.testimonials-intro p {
-  width: 80%;
-  margin: 20px 0;
-} */
-
-/* .testimonials-intro input[type="button"] {
-  margin: 0;
-  width: 15%
-} */
 
 .testimonials {
   flex: 5 1;
