@@ -544,37 +544,6 @@ textarea[placeholder] {
   text-decoration: none;
 }
 
-.tooltip_container {
-  position: relative;
-}
-/* Tooltip bubble */
-.tooltip_bubble {
-  width: 200px;
-  background-color: var(--color-complementary);
-  color: var(--color-background);
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 5px;
-
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  bottom: 5%;
-  left: 2%;
-}
-
-/* Tooltip arrow */
-.tooltip_bubble::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 90%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: var(--color-complementary) transparent transparent transparent;
-}
-
 /*------------------------------------------------------------------
     ^Newsletter
 -------------------------------------------------------------------*/
@@ -593,23 +562,21 @@ textarea[placeholder] {
 .my-services {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;  /* NEW */
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 
 .card-container {
    flex: 1 0 20%;
    margin: 5px;
+   display: flex;
 }
-
 
 .services-img {
   width: 3.75rem;
   height: auto;
   color: var(--color-main-dark);
 }
-
-
 
 /*------------------------------------------------------------------
     ^PROJECTS
