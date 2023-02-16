@@ -587,16 +587,12 @@ textarea[placeholder] {
     ^SERVICES
 -------------------------------------------------------------------*/
 #services {
-  /* background: rgb(1,64,160);
-background: linear-gradient(68deg, rgba(1,64,160,1) 0%, rgba(1,64,160,1) 65%, rgba(25,100,218,1) 100%);     */
-
-color: var(--color);
+  color: var(--color);
 }
 
 .my-services {
   display: flex;
   margin-top: 50px;
- /*  */
 }
 
 a.my-service {
@@ -626,6 +622,7 @@ a.my-service {
   height: auto;
   color: var(--color-main-dark);
 }
+
 
 
 /*------------------------------------------------------------------
