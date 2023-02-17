@@ -33,7 +33,7 @@
     if (scrollY > 250) {
       scrollTopButton.className = "back-to-top show";
     } else {
-      scrollTopButton.className = "back-to-top hide";
+      scrollTopButton.className = "back-to-top hidden";
     }
   };
 

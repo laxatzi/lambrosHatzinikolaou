@@ -904,8 +904,8 @@ p img.zip-code {
   border: 2px solid var(--color-main-dark);
 }
 
-.back-to-top
-.back-to-top.hide {
+
+.back-to-top.hidden {
   visibility: hidden;
   opacity: 0;
 }
