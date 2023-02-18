@@ -799,13 +799,7 @@ form label {
   color: var(--color-main-dark);
 }
 
-span.arrow_curved {
-  content: "\293F";
-  font-size: 5rem;
-  font-weight: bold;
-  color:var(--color-main-dark);
-  vertical-align: sub;
-}
+
 .contact-info {
   height: 50%;
   display: flex;
