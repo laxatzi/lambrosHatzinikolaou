@@ -793,8 +793,8 @@ form label {
   flex: 5 1;
 }
 
-.contact-info {
-  height: 50%;
+.contact-info_box {
+  height: auto;
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -805,8 +805,7 @@ form label {
   flex: 4 1;
 }
 
-.contact-info p,
-.contact-info h3 {
+.contact-info p {
   color: var(--color-main-dark);
 }
 
