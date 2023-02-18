@@ -788,18 +788,6 @@ form label {
   flex: 5 1;
 }
 
-.or {
-  flex: 1 1;
-  text-align: center;
-}
-
-.or p {
-  font-size: 2rem;
-  font-weight: bold;
-  color: var(--color-main-dark);
-}
-
-
 .contact-info {
   height: 50%;
   display: flex;
