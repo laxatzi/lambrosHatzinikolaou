@@ -719,6 +719,7 @@ span.arrow {
   color: grey;
   background-color: var(--color-background-alt);
   padding: 5px 10px;
+  height: 50%;
 }
 
 .brands {
@@ -731,6 +732,10 @@ span.arrow {
   display: block;
   text-align: center;
   padding: 30px 0;
+}
+
+.brand img {
+  width: 60%;
 }
 
 /*------------------------------------------------------------------
