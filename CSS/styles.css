@@ -551,12 +551,12 @@ textarea[placeholder] {
   border-radius: 5px;
   width: 75%;
   background-color: rgba(0,0,0, .7);
+  padding: 10px 20px;
 }
 
 img.ebook-cover {
   width: 200px;
   height: 320px;
-  border: 1px solid red;
   margin-right: 5rem;
 }
 
