@@ -545,6 +545,26 @@ textarea[placeholder] {
   color: var(--color);
 }
 
+.newsletter {
+  display: flex;
+  border: 3px solid var(--color-main-dark);
+  border-radius: 5px;
+  width: 75%;
+  background-color: rgba(0,0,0, .7);
+}
+
+img.ebook-cover {
+  width: 200px;
+  height: 320px;
+  border: 1px solid red;
+  margin-right: 5rem;
+}
+
+.newsletter-sellit small,
+.newsletter-sellit h3,
+ .newsletter-sellit h4 {
+  color: var(--color-background);
+}
 /*------------------------------------------------------------------
     ^SERVICES
 -------------------------------------------------------------------*/
