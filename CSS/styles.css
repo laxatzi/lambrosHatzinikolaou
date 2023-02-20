@@ -757,8 +757,10 @@ span.arrow {
 
 .hr {
   border: 3px solid var(--color-main-dark);
-  width: 10%;
-  margin: 10px auto;
+  border-radius: 5px;
+  width: 7%;
+  margin: 0;
+  padding: 0;
 }
 
 .message form {
