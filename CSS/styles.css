@@ -548,15 +548,18 @@ textarea[placeholder] {
 .newsletter {
   display: flex;
   border-radius: 5px;
-  width: 75%;
+  width: 100%;
   background-color: rgba(0,0,0, .7);
   padding: 10px 20px;
+  margin: 0;
 }
 
 img.ebook-cover {
-
   -webkit-transform: rotate(-5deg);
   transform: rotate(3deg);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); /*[horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
+  width: 250px;
+  height: 360px;
 }
 
 .newsletter-sellit small,
@@ -569,12 +572,19 @@ img.ebook-cover {
   border-color: transparent;
 }
 
+.newsletter-sellit {
+  flex: 3 1;
+}
+
 .newsletter-ebook {
   position: relative;
   width: 250px;
-  height: 370px;
-  margin-right: 5rem;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+  flex: 2 1;
 }
+
 .newsletter-img {
   position: absolute;
   top: -10%;
