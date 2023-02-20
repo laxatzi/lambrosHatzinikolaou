@@ -554,9 +554,9 @@ textarea[placeholder] {
 }
 
 img.ebook-cover {
-  width: 200px;
-  height: 320px;
-  margin-right: 5rem;
+
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(3deg);
 }
 
 .newsletter-sellit small,
@@ -567,6 +567,17 @@ img.ebook-cover {
 
 .newsletter-sellit form input {
   border-color: transparent;
+}
+
+.newsletter-ebook {
+  position: relative;
+  width: 250px;
+  height: 370px;
+  margin-right: 5rem;
+}
+.newsletter-img {
+  position: absolute;
+  top: -10%;
 }
 /*------------------------------------------------------------------
     ^SERVICES
