@@ -547,7 +547,6 @@ textarea[placeholder] {
 
 .newsletter {
   display: flex;
-  border: 3px solid var(--color-main-dark);
   border-radius: 5px;
   width: 75%;
   background-color: rgba(0,0,0, .7);
@@ -564,6 +563,10 @@ img.ebook-cover {
 .newsletter-sellit h3,
  .newsletter-sellit h4 {
   color: var(--color-background);
+}
+
+.newsletter-sellit form input {
+  border-color: transparent;
 }
 /*------------------------------------------------------------------
     ^SERVICES
