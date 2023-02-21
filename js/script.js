@@ -56,7 +56,6 @@
   const nav = document.querySelector(".nav--js");
   const icon = document.querySelector(".toggle-menu ion-icon");
 
-// Listen for click event on toggle var
   toggleMenu.addEventListener('click', function() {
     nav.classList.toggle("show");
     const menuIcon = document.getElementsByTagName('ion-icon')[0];
