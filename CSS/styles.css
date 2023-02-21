@@ -131,11 +131,6 @@ a.button {
   font-size: 1rem;
 }
 
-a.button-norm {
-  background-color: var(--color-main-dark);
-  color: var(--color-background);
-}
-
 a ion-icon {
   color: var(--color-main-dark);
   vertical-align: middle;
@@ -180,11 +175,6 @@ section {
 
 .ion-icon.comp {
   color: var(--color-main-light);
-}
-
-.viber ion-icon {
-  background-color: var(--color-main-light);
-  color: var(--color-background);
 }
 
 span.complement {
