@@ -1277,9 +1277,7 @@ blockquote:before {
   padding: 5px 20px;
 }
 
-.map,
-.call,
-.viber {
+.call {
   width: 100%;
 }
 
@@ -1348,7 +1346,6 @@ section {
 Page - Blog
 ------------------------------------------------------------------
 */
-
 span.word-count,
 span.date,
 span.comments-link {
