@@ -1257,18 +1257,6 @@ a.my-service {
   text-decoration: none;
 }
 
-.plans {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.plan {
-  margin-top: 50px;
-  width: 80%;
-}
-
 blockquote {
   line-height: 1.5em;
   font-size: 90%;
@@ -1328,12 +1316,6 @@ section {
 
 .services-img {
   width: 4rem;
-}
-
-.plan {
-  margin-top: 50px;
-  margin-left: 10px;
-  width: 100%;
 }
 
 #footer {
