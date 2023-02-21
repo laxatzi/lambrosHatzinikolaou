@@ -830,7 +830,6 @@ form label {
 p img.zip-code {
   width: 2rem;
   height: auto;
-  /* color: var(--color-background); */
   margin-right: 15px;
   vertical-align: bottom;
   border-radius: 5px;
@@ -1085,40 +1084,6 @@ a.my-service {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-}
-
-#plans {
-  text-align: center;
-}
-
-#plans h4 {
-  text-align: center;
-  font-size: 2rem;
-}
-
-#plans p {
-  text-align: left;
-}
-
-.plans {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: start;
-}
-
-.plan {
-  padding: 5% 2%;
-  margin-top: 50px;
-  width: 80%;
-}
-
-.plan .price {
-  font-size: 250%;
-}
-
-.plan li {
-  font-size: 1.25rem;
 }
 
 blockquote {
