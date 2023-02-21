@@ -78,14 +78,11 @@ p:last-of-type {
 }
 
 ::-moz-selection {
-  /* background: #276001; */
   background-color: var(--color-main-lighter);
-
 }
-::selection {
-  /* background: #276001; */
-  background-color: var(--color-main-lighter);
 
+::selection {
+  background-color: var(--color-main-lighter);
 }
 
 h4 + p {
@@ -396,7 +393,6 @@ textarea[placeholder] {
 
 #header {
   background: var(--color-background);
-  /* background: linear-gradient(68deg, rgba(1,64,160,1) 0%, rgba(1,64,160,1) 65%, rgba(25,100,218,1) 100%);   */
   color: var(--color-main-light);
   height: 75px;
   display: flex;
@@ -557,7 +553,7 @@ textarea[placeholder] {
 img.ebook-cover {
   -webkit-transform: rotate(-5deg);
   transform: rotate(3deg);
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); /*[horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   width: 250px;
   height: 360px;
 }
@@ -1033,12 +1029,10 @@ ul.tag-cloud a:active {
 }
 
 .articles {
-  /* border: 5px solid black; */
   grid-gap: 50px;
 }
 
 .article {
-  /* border: 1px solid blue; */
   border-bottom: 1px dotted var(--color-main-dark);
   margin-bottom: 40px;
 }
@@ -1186,7 +1180,6 @@ blockquote {
 .contact {
   flex-direction: column;
   width: 100%;
-  /* padding: 20px 50px; */
 }
 
 .contact-info {
