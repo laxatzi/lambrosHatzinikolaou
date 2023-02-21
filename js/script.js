@@ -74,20 +74,3 @@
     }
   }, false);
 
-// Mode changer
-const mode_button = document.querySelector('#switch');
-const body = document.querySelector('body');
-const link = document.querySelectorAll('a');
-
-mode_button.addEventListener("click", (el)=> {
-    const elem = el.target;
-    const getAriaChecked = elem.getAttribute("aria-checked");
-    const isAriaChecked = (getAriaChecked === "true");
-
-
-    elem.setAttribute("aria-checked", isAriaChecked ? false : true);
-    body.classList.toggle('dark-mode');
-    for(let i = 0; i < link.length; i++){
-        link[i].classList.toggle('dark-link');
-    }
-})
