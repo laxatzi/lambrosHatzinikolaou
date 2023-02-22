@@ -18,8 +18,7 @@
   }
 
 
-
-  const scrollTopButton = document.getElementById('js--back-to-top');
+const scrollTopButton = document.getElementById('js--back-to-top');
 
   // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
   const showScrollButton = function showScrollButtonWhenBeyondWindow() {
@@ -41,7 +40,7 @@
       window.requestAnimationFrame(scrollToTop);
       // ScrollTo takes an x and a y coordinate.
       // Increase the '10' value to get a smoother/slower scroll!
-      window.scrollTo(0, distanceFromTop - distanceFromTop / 10);
+      window.scrollTo(0, distanceFromTop - distanceFromTop / 5);
     }
   };
 

@@ -25,6 +25,7 @@ GENERIC STYLES
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -155,11 +156,10 @@ img {
 blockquote {
   position: relative;
   font-weight: bold;
-  border-top: 1px dashed color;
   border-bottom: 1px dashed var(--color);
   text-align: left;
   line-height: 1.6em;
-  font-size: 100%;
+  font-size: 80%;
   padding: 20px 2.5em;
   width: 80%;
 }
@@ -175,6 +175,7 @@ blockquote:before {
 
 section {
   padding: 50px 17%;
+  margin: 0;
 }
 
 .ion-icon.comp {
