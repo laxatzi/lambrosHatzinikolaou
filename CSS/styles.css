@@ -455,7 +455,7 @@ textarea[placeholder] {
    border-radius: 5px;
    height: 30vh;
    width: 30vh;
-   margin-left: 15rem;
+   /* margin-left: 15rem; */
 }
 
 .intro {
