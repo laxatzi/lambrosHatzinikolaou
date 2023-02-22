@@ -672,6 +672,7 @@ p.work-title {
 .testimonials {
   flex: 5 1;
   padding: 5px;
+  margin-right: 5%;
 }
 
 .testimonials-quote {
