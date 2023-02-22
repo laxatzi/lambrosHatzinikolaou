@@ -1,0 +1,51 @@
+<!-- ©Lambros Hatzinikolaou 2023 -->
+<!DOCTYPE html>
+<html prefix="og: https://lambrosHatzinikolaou.com/ns#>" lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lambros Hatzinikolaou Personal Website</title>
+  <meta name="author" content="Lambros Hatzinikolaou">
+  <meta name="description" content="A freelance web developer from Thessaloniki, Greece, specializing in building websites for small businesses and professionals">
+  <link rel="canonical" href="https://lambrosHatzinikolaou.com/" />
+  <meta property="og:title" content="Lambros Hatzinikolaou | Freelance web developer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.lambrosHatzinikolaou.com" />
+  <meta property="og:image" content="https://www.lambrosHatzinikolaou.com/img/avatar.jpg  " />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+  <script defer>
+    document.querySelector(".wrapper").style.display= "none";
+		document.querySelector("body").classList.add("loader");
+    //  Mimicing a server request
+		  setTimeout(function(){
+			 	document.querySelector("body").classList.remove("loader");
+                document.querySelector(".wrapper").style.display= "block";
+			 }, 0);
+</script>
+<script src="js/script.js" defer></script>
+</head>
+<body>
+  <div>Loading...</div>
+  <div class="wrapper" id="top">
+    <header id="header">
+      <div class="logo"><a href="#home" >LambrosHatzinikolaou</a></div>
+      <div class="toggle-menu" id="toggle-menu-button" aria-label="Toggle main menu">
+        <ion-icon name="menu" class="show" ></ion-icon>
+        <ion-icon name="close" class="close"></ion-icon>
+      </div>
+      <div id="navbar" class="nav nav--js">
+          <div class="nav-link"><a href="#home.html" class="bold">Home</a></div>
+          <div class="nav-link"><a href="about.html">About</a></div>
+          <div class="nav-link"><a href="#services">Services</a></div>
+          <div class="nav-link"><a href="#projects">Work</a></div>
+          <div class="nav-link"><a href="blog.html">Articles</a></div>
+          <div class="nav-link"><a href="tutorials.html">Tutorials</a></div>
+          <div class="nav-link"><a href="#contactme" class="reachout">Reach Out</a></div>
+      </div>
+    </header>
