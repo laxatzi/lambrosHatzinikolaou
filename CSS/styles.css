@@ -805,7 +805,12 @@ form label {
 }
 
 .message {
-  flex: 5 1;
+  flex: 4 1;
+}
+
+.contact-info {
+  flex: 4 1;
+  margin-left: 10%;
 }
 
 .contact-info_box {
@@ -814,10 +819,8 @@ form label {
   flex-direction: column;
   padding: 15px;
   margin-top: 30px;
-  margin-left: 20px;
   border-radius: 5px;
   border: 3px solid var(--color-main-dark);
-  flex: 4 1;
 }
 
 .contact-info p {
